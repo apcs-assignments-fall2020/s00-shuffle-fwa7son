@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Perfect Shuffle",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testPerfectShuffle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Selection Shuffle",
+      "setup": "",
+      "run": "./gradlew clean test --tests MyTests.testSelectionShuffle",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
